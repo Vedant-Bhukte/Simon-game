@@ -8,6 +8,15 @@ body {
   font-size: 3rem;
   margin:  5%;
   color: #FEF2BF;
+  padding: 2%;
+  border: 2px solid;
+}
+
+#game-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  margin:  5%;
+  color: #FEF2BF;
 }
 
 .container {
@@ -28,6 +37,11 @@ body {
 
 .game-over {
   background-color: red;
+  opacity: 0.8;
+}
+
+.game-victory {
+  background-color: rgb(109, 254, 90);
   opacity: 0.8;
 }
 
